@@ -18,6 +18,9 @@ uncomment line 17. This is using a external style sheet.-->
 
 body {
   background-color: blue;
+  color: white;
+  max width: 900px;
+  margin: 0 auto;
 }
 header, footer {
   background-color: purple;
@@ -57,6 +60,13 @@ th{
     background-color: #e4c3ad;
   }
 */
+.clear-float {
+  clear:both;
+}
+  article img {
+    float:left;
+  }
+
 
 </style>
 </head>
@@ -72,7 +82,9 @@ th{
 <section>
   <article class="border_example" id="Andrew Facts">
 <h2> <em> Andrew Facts </em> </h2>
-<img src= "images/paintmasterpiece.jpg" /> <p> Hey it's Andrew. I know what you're thinking, what is this model doing in my coding class? Just in case comedy doesn't pan out I could always fall back on coding which is my bread and butter(about 3-4 days experience). </p>
+<img src= "images/paintmasterpiece.jpg" alt"professional painting" width="450" div class= "clear-float"></div>
+<p> Hey it's Andrew. I know what you're thinking, what is this model doing in my coding class? Just in case comedy doesn't pan out I could always fall back on coding which is my bread and butter(about 3-4 days experience). </p>
+<div style="clear:both"></div>
   </article>
 
   <article id="Experiences">
