@@ -13,7 +13,7 @@ text white. you can also add a class and refer to it with a dot and apply(line 4
 
 <!--other option with same results is to keep <style> </style> and delete everything between line 19 and 33. and
 uncomment line 17. This is using a external style sheet.-->
-<!-- <link href="teststyles.css" rel="stylesheet" type="text/css" />-->
+<link href="teststyles.css" rel="stylesheet" type="text/css" />
 <style>
 
 body {
@@ -29,8 +29,35 @@ header, footer {
 
 #Experiences {
   border: thick dashed orange;
-
 }
+
+/* added some css to the table from code along style and colors.*/
+/*caption {
+  font-weight: bold;
+  font-size: 1.2em;
+  margin-bottom: 8px;
+}
+table, th, td {
+  border:1px solid #0d1f2d;
+  border-collapse: collapse;
+  padding: 5px 10px;
+}
+table{
+  width:90%;
+  margin: auto;
+}
+tr{height:30px;
+  background-color: white;
+}
+th{
+  background-color: #546a7b;
+  color: #f2eded;
+}
+  tr:nth-child(odd) {
+    background-color: #e4c3ad;
+  }
+*/
+
 </style>
 </head>
 
@@ -50,12 +77,16 @@ header, footer {
 
   <article id="Experiences">
 <h2> <em> Past Experiences </em> </h2>
-<table border="1">
+<table>
+  <caption> Employment History</caption> <!-- title for table-->
+<thead> <!-- this is new -->
 <tr>
   <th>Organization</th>
   <th>Position</th>
   <th>Years</th>
 </tr>
+</thead>
+<tbody> <!-- this is new -->
 <tr>
   <td>Techhire</td>
   <td>Best Candidate</td>
@@ -72,7 +103,7 @@ header, footer {
   <td>CEO</td>
   <td>Past-2017</td>
 </tr>
-
+</tbody>
 </table>
   </article>
 
