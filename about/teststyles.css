@@ -1,0 +1,15 @@
+body {
+  background-color: blue;
+}
+header, footer {
+  background-color: purple;
+  color: white;
+}
+.border_example{
+  border: thick solid red;
+}
+
+#Experiences {
+  border: thick dashed orange;
+
+}

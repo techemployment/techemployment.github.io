@@ -8,6 +8,30 @@ most recent revision: 4/6/19
 <html lang="en">
 <head>
   <title> About Me </title>
+<!-- everything within the <style> is new. I added background color and changed color of header and footer and made
+text white. you can also add a class and refer to it with a dot and apply(line 43). I also can refer to items in id with a # and also apply settings to them.(line 48)-->
+
+<!--other option with same results is to keep <style> </style> and delete everything between line 19 and 33. and
+uncomment line 17. This is using a external style sheet.-->
+<!-- <link href="teststyles.css" rel="stylesheet" type="text/css" />-->
+<style>
+
+body {
+  background-color: blue;
+}
+header, footer {
+  background-color: purple;
+  color: white;
+}
+.border_example{
+  border: thick solid red;
+}
+
+#Experiences {
+  border: thick dashed orange;
+
+}
+</style>
 </head>
 
 <body>
@@ -15,11 +39,11 @@ most recent revision: 4/6/19
   <h1> All About Andrew</h1>
 </header>
 
-<hr /> <!--make a line -->
+<hr style="width: 50%; border: 2px solid blueviolet;" /> <!--make a line -->
 
 
 <section>
-  <article id="Andrew Facts">
+  <article class="border_example" id="Andrew Facts">
 <h2> <em> Andrew Facts </em> </h2>
 <img src= "images/paintmasterpiece.jpg" /> <p> Hey it's Andrew. I know what you're thinking, what is this model doing in my coding class? Just in case comedy doesn't pan out I could always fall back on coding which is my bread and butter(about 3-4 days experience). </p>
   </article>
@@ -42,6 +66,11 @@ most recent revision: 4/6/19
   <td>BlackRock</td>
   <td>Contingent Worker</td>
   <td>2017-2018</td>
+</tr>
+<tr>
+  <td>Everything else</td>
+  <td>CEO</td>
+  <td>Past-2017</td>
 </tr>
 
 </table>
@@ -67,7 +96,8 @@ most recent revision: 4/6/19
 
 <footer>
   <hr />
+  <p>&copy; <b>2050 Andrew Kim.</b> <i>Both left and right reserved<i> </p>
 </footer>
-<p>&copy; <b>2050 Andrew Kim.</b> <i>Both left and right reserved<i> </p>
+
 </body>
 </html>
