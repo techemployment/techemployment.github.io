@@ -1,0 +1,27 @@
+var myString;
+myString = "hello world!";
+console.log(myString); // this outputs to console
+document.write(myString) // outputs to html (not really how it is done but it is a way to see what we are doing in class)
+
+can also put in html elements into it as well
+
+document.write("<b>" + myString + "</b>");
+
+-DOM elements- (not here yet but can start doing more interesting things with our websites)
+
+printing to the console and document write is for debugging purpose.
+
+
+var a = 5;
+console.log(typeof(a)); //can use to check data type
+
+var result1, result2, result3;
+var result1 = !false
+var result2 = !false
+
+console.log (result3);
+
+do all caps in my code
+html and css use hyphens use camel case in JavaScript
+
+playcode.io
