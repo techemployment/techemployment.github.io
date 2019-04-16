@@ -1,0 +1,100 @@
+-if statements
+-loops
+-functions
+
+var test = prompt("Please enter your password:");
+//initialized a variable that is the defined by the function prompt.
+console.log(test);
+
+var password = "hello";
+var test = prompt ("please enter your password");
+
+if(test == password) {
+  alert("welcome");
+
+}
+else {
+  alert("wrong password");
+
+}
+
+console.log(test);
+
+if statement is can be used for things like passwords.
+loop can be used until test condition is meet also good when asking people for password.
+
+var count = 0;
+while(count<10){
+  console.log("hello world");
+  count++;
+}
+
+this will print hello world to the console 10 times
+
+var count = 1; // (1) counter initialization
+while(count<=10){ // (2) test condition
+  console.log(count);
+  count++; // (3) increment
+
+  this will make print numbers 1-10
+  var count = 10;
+  while(count>=0){
+    console.log(count);
+    count--;
+  }
+this counts down from 10 to 1.
+
+this is how to add up all the numbers in a range this is from our code practice.
+
+var sum = 0;
+var count = 1;
+while(count<=10){
+sum=sum+count;
+count++;
+console.log(sum);
+}
+
+all loops are doing the same thing. just different ways of writing them.
+DO WHILE LOOPS aka as long as
+do {
+
+}while();
+
+var count = 0; // initialize the loop counter
+do {
+console.log(count);
+count++; // increment
+
+}while(count<10); // test condition
+
+example of a password code.
+
+var userPassword;
+var correctPassword = "duck";
+
+do{
+userPassword=prompt("Enter Password:");
+
+}while(userPassword != correctPassword); // could put "duck" instead of correctPassword.
+
+var count = 0; // step 1
+while(count <= 10) { //step 2
+console.log(count);
+count=count+2; // step 3 same as count+=2
+}
+
+DO WHILE LOOP
+
+var count = 0;
+do{
+console.log(count);
+count= count+2;
+}while(count<=10);
+
+WHILE LOOP
+
+var count = 10;
+while(count >= 0){
+console.log(count);
+count-=5;
+}
