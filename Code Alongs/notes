@@ -98,3 +98,74 @@ while(count >= 0){
 console.log(count);
 count-=5;
 }
+
+3 main steps for any loops
+  *loop counter initialization
+  *test condition
+  *increment, decrement, or a step
+
+var name = prompt("enter your name:");
+var count = 0;
+while(count <= 100){
+if(name == "danielle"){
+console.log("unicorns are great!");
+}
+else{
+console.log("horses are great!");
+}
+count++;
+}
+
+// brackets are optional and not nessessary when there is only one line of code; however, it is good practice to include them
+
+(count + ": unicorns are great!")// you could do something like this to see the count in as well
+
+THE FOR LOOPS
+for (var count; count<10; count++){
+console.log(count);
+}
+// it is the same code basically
+var count=0;
+while(count<10){
+console.log(count);
+count++;
+}
+
+//added a if statement into the for loop
+var count;
+
+for (var count =0; count<10; count++){
+if(count%2==0){
+console.log(count);
+}
+}
+//
+var count;
+
+for (var count =0; count<10; count++){
+if(count%2==0){
+console.log("your number is even! " + count);
+}
+  else{
+    console.log("your number is odd! " + count);
+  }
+}
+
+for(statement#1; statement#2; increment)
+
+can have more test conditions in a for loop if you use logical operators.
+
+//add up all the values from 1 to 10
+var i;
+var sum=0;
+for(i=1; i<= 10; i++) {
+sum= sum+i;
+console.log(sum);
+}
+
+var i;
+var factorial =1;
+for(i=1; i<=4; i++){
+  factorial= factorial*i;
+  console.log(factorial);
+}
