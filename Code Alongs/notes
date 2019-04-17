@@ -169,3 +169,82 @@ for(i=1; i<=4; i++){
   factorial= factorial*i;
   console.log(factorial);
 }
+
+fUNCTIONS
+function waffles() {
+console.log("chicken & waffles")
+}
+
+you keep () by to identify as waffles as a function and not just a string or something.
+
+in the previous function nothing is executed because nothing is called.
+
+function waffles(){
+console.log("chicken and waffles");
+}
+waffles();
+
+
+function waffles(){
+console.log("chicken and waffles");
+}
+waffles();
+can also be added into a loop.
+                   parameter
+function waffles(myString){
+console.log("chicken & waffles");
+}
+
+waffles("syrup")
+
+function waffles(myString){
+
+console.log(myString + "and waffles");
+}
+waffles("syrup");
+waffles("chicken");
+waffles("butter");
+
+
+multiple parameters
+function waffles(myString1, myString2){
+
+console.log(myString1 + " and " + myString2);
+}
+waffles("syrup", "chicken");
+waffles("chicken", "icecream");
+waffles("butter");
+
+
+SCOPE
+var breakfast= "eggs" //global
+
+function waffles(myString1, myString2){
+}
+waffles("bacon","eggs");
+console.log(breakfast);
+
+function waffles(myString1,myString2) {
+var count;
+var i;
+var unicorns;
+console.log(myString1+myString2);
+}
+
+waffles(1,2);
+
+function sum(num1, num2){
+  return num1 + num2;
+
+}
+
+console.log(sum(1,2));
+
+
+MORE FUNCTIONS
+function printUnicorns(){
+  return "Hello Unicorns!";
+}
+
+var myResult = printUnicorns();
+console.log(myResult);
