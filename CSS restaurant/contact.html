@@ -60,7 +60,7 @@ Best day to contact you:
 <input type="checkbox" name="myChoices" value="Thursday"unchecked/>Thur
 <input type="checkbox" name="myChoices" value="Friday"unchecked/>Fri
 <input type="checkbox" name="myChoices" value="Saturday"uncheck/>Sat
-<input type="checkbox" name="myChoices" value="Sunday"unchecked/>Sun
+<input type="checkbox" name="day" value="Sunday"checked/>Sun
 
 </fieldset>
 <br/>
@@ -72,6 +72,17 @@ Best day to contact you:
 <br />
 </form>
 <hr />
+<script>
+  function test(){
+    let day = document.getElementById('day').value;
+if (day ==checked){
+  alert("checked");
+}
+
+  }
+
+  </script>
+
 <footer>
 
   <p> 320 Park Ave, New York, NY 10022</p>

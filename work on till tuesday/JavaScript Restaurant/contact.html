@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+      <title> JavaScript </title>
+
+         <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+
+
+<style>
+  #menu{
+    border: 3px red dashed;
+    color:blue;
+
+    }
+    a:hover{
+      background-color: yellow;
+}
+
+body{
+background-image:url(back.jpg);
+background-repeat: no-repeat;
+background-size: cover;
+}
+.jumbotron{
+  background: none;
+  color: white;
+}
+
+.test{
+  background: white;
+  text-align: center;
+}
+
+</style>
+</head>
+
+<body>
+<header class= "jumbotron">
+  <h1> The Safe House </h1>
+</header>
+
+
+<div class= "container" id = "menu">
+  <nav class="row " style="text-align:center;">
+<div class="col-12 col-sm-2 offset-sm-3 offset-lg-0 col-lg-1 ">
+<a class="btn badge-pill" href = "index.html"><img src = "logo.png" alt="its a me" style="width:100px"; /> </a>
+</div>
+<div class="col-12 col-sm-2 offset-sm-3 offset-lg-0 col-lg-1 ">
+<a class="btn badge-pill" href = "menu.html">Menu </a>
+</div>
+<div class="col-12 col-sm-2 offset-sm-3 offset-lg-0 col-lg-1 ">
+<a class="btn badge-pill" href = "investments.html">Investments </a>
+</div>
+<div class="col-12 col-sm-2 offset-sm-3 offset-lg-0 col-lg-1 ">
+<a class="btn badge-pill" href = "contact.html">Contact Us </a>
+</div>
+</nav>
+</div>
+<script>
+ function alerts() {
+   let name = document.getElementById('name').value;
+   let email = document.getElementById('email').value;
+   let phone = document.getElementById('phone').value;
+   if (name != "" && email != "" && phone != "") {
+     alert("Thank you " + name + "! your request has been submitted. we will contact you as soon as we can.");
+   }
+ }
+ </script>
+
+<div class="test">
+  <form action ="fakePage.html" method="POST">
+    Name: <input type="text" name=myTextInput" />
+    <br/>
+    <br/>
+    Email: <input type="text" name=myTextInput" />
+    <br/>
+    <br/>
+    Phone: <input type="text" name=myTextInput" />
+    <br/>
+    <br/>
+    Reason for Inquiry<select name="inquiry">
+      <option value="Catering">Catering </option>
+      <option value="Private Party">Private Party</option>
+      <option value="Feedback">Feedback </option>
+      <option value="Other">Other </option>
+      </select>
+  <br />
+  <br />
+  <p> Additional Information: </p>
+  <textarea name="comments"></textarea><br />
+
+  <fieldset>
+    Have you been to this restaurant before: <br/>
+  <input type="radio" name="answer" value="Yes" checked />Yes
+  <input type="radio" name="answer" value="No" />No
+  </fieldset>
+
+  <br/>
+  <br/>
+  <fieldset>
+  Best day to contact you:
+  <input type="checkbox" name="myChoices" value="Monday" unchecked/>Mon
+  <input type="checkbox" name="myChoices" value="Tuesday"unchecked/>Tue
+  <input type="checkbox" name="myChoices" value="Wednesday"unchecked/>Wed
+  <input type="checkbox" name="myChoices" value="Thursday"unchecked/>Thur
+  <input type="checkbox" name="myChoices" value="Friday"unchecked/>Fri
+  <input type="checkbox" name="myChoices" value="Saturday"uncheck/>Sat
+  <input type="checkbox" name="myChoices" value="Sunday"unchecked/>Sun
+
+  </fieldset>
+  <br/>
+  <br/>
+  <br/>
+  <br/>
+
+  <input type ="submit" /><input type="reset" />
+  <br />
+  </form>
+  <hr />
+</div>
+
+<script>
+function alerts() {
+  let name = document.getElementById('name').value;
+  let email = document.getElementById('email').value;
+  let phone = document.getElementById('phone').value;
+  if (name != "" && email != "" && phone != "") {
+    alert("Thank you " + name + "! your request has been submitted. we will contact you as soon as we can.");
+  }
+}
+</script>
+  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+
+</body>
+<html>
