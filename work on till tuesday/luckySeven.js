@@ -37,17 +37,23 @@ var rollCountAtHighest = 0; // roll count at highest amount won
    if(money>highestAmount){
      highestAmount = money;
      rollCountAtHighest = rollsNum;
-   }
+
 
   }
 
-document.getElementById("initialBet").style.display = initialBet;
-document.getElementById("rollsNum").style.display = rollsNum;
-document.getElementById("highestAmount").style.display = highestAmount;
-document.getElementById("rollCountAtHighest").style.display = rollCountAtHighest;
+// document.getElementById("initialBet").style.display = initialBet;
+// document.getElementById("rollsNum").style.display = rollsNum;
+// document.getElementById("highestAmount").style.display = highestAmount;
+// document.getElementById("rollCountAtHighest").style.display = rollCountAtHighest;
 
 
 
 
 }
 game();
+
+console.log(initialBet);
+console.log(rollsNum);
+console.log(highestAmount);
+console.log(rollCountAtHighest);
+}
