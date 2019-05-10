@@ -25,7 +25,11 @@ public class RockPaperScissors {
          
         System.out.println("How many rounds would you like to play?");
         Scanner rounds = new Scanner(System.in);
+<<<<<<< HEAD
          int n = rounds.nextInt();//nextLine();
+=======
+         int n = rounds.nextInt();
+>>>>>>> dc5a0b273e46c3182aea2fc47b41e34771b06006
         
             if(1 <= n && n <= 10 ){
                 playGame(n);
@@ -44,11 +48,14 @@ public class RockPaperScissors {
         
      
     }
+<<<<<<< HEAD
     /**
      * plays rock paper scissors
      * @param n /number of rounds
      * Best Presentation
      */
+=======
+>>>>>>> dc5a0b273e46c3182aea2fc47b41e34771b06006
     public static void playGame(int n) {
         
         int tie = 0;
