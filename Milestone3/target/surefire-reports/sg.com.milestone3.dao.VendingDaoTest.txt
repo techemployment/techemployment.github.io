@@ -1,0 +1,16 @@
+-------------------------------------------------------------------------------
+Test set: sg.com.milestone3.dao.VendingDaoTest
+-------------------------------------------------------------------------------
+Tests run: 3, Failures: 2, Errors: 1, Skipped: 0, Time elapsed: 0.03 sec <<< FAILURE!
+testBuyItem(sg.com.milestone3.dao.VendingDaoTest)  Time elapsed: 0.02 sec  <<< ERROR!
+sg.com.milestone3.dao.ItemOutOfStockException: SOLD OUT
+	at sg.com.milestone3.dao.VendingDao.buyItem(VendingDao.java:102)
+	at sg.com.milestone3.dao.VendingDaoTest.testBuyItem(VendingDaoTest.java:53)
+testGetItem(sg.com.milestone3.dao.VendingDaoTest)  Time elapsed: 0 sec  <<< FAILURE!
+junit.framework.AssertionFailedError: The test case is a prototype.
+	at junit.framework.Assert.fail(Assert.java:47)
+	at sg.com.milestone3.dao.VendingDaoTest.testGetItem(VendingDaoTest.java:34)
+testGetItems(sg.com.milestone3.dao.VendingDaoTest)  Time elapsed: 0 sec  <<< FAILURE!
+junit.framework.AssertionFailedError: The test case is a prototype.
+	at junit.framework.Assert.fail(Assert.java:47)
+	at sg.com.milestone3.dao.VendingDaoTest.testGetItems(VendingDaoTest.java:43)
