@@ -1,0 +1,31 @@
+var itemRows = $('#itemRows');
+    for(let i=0; i<3;i++){ 
+        var row= '<tr>';
+       
+         for (let j=(i%3)*3; j<(i%3)*3+3; j++){
+             var item = itemArray[j];
+
+             var itemId= item.id;
+             var name = item.name;
+             var price=item.price;
+             var quantity= item.quantity;
+
+             
+                 row+='<td><b>'+itemId+'</br>';
+                 row+= '<b>' + name +'</br>';
+                 row+= '<b>$'+ price +'</br>';
+                 row+= '<b>Quantity Left: '+quantity+'</br></td>';
+             }     
+             
+         
+         row+='</tr>'
+         itemRows.append(row);
+     }
+
+{"readyState":4,"responseText":"{\"message\":\"Please deposit: 1.45\"}","responseJSON":{"message":"Please deposit: 1.45"},"status":422,"statusText":"Unprocessable Entity"}
+
+row+='<div class="card" sytle="width:400px"> <div class="card-body">';
+                 row+= '<a href="#" class="btn btn-light">'+itemId+'</a><br>';
+                 row+= '<h4 class="card-title">'+name+'</h4>';
+                 row+='<p class="card-text"> $'+price+ '<br>Quantity: '+ quantity+'</p></div></div>';
+                 //row+= '<a href="#" class="btn btn-light">'+itemId+'</a>';
