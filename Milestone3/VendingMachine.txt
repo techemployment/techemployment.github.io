@@ -1,5 +1,0 @@
-Snickers::1.25::0
-Skittles::1.00::1
-Dorito's Purple Bag::1.50::3
-Hershey's Chocolate Bar::2.00::4
-Lay's Salt and Vinegar Chips::1.75::1
